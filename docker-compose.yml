@@ -20,7 +20,7 @@ services:
       - db
     image: wordpress:php8.1-apache
     ports:
-      - "80:80"
+      - 80:80
     restart: always
     networks:
       - internal
